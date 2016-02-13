@@ -247,3 +247,11 @@ h1, h2, h3, h4, h5, h6 {
 	}
 	
 }
+
+.jumbotron {
+	background-image: url(/img/flowers.jpg); 
+	background-size: 100%;
+	text-align: center;
+	color: purple;
+	font-size: 50px;
+}

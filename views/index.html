@@ -15,6 +15,10 @@
     <link href="/css/font-awesome.css" rel="stylesheet">
     <link href="/css/photographer.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/js/shadowbox/shadowbox.css">
+    <link href="/font/fontawesome-webfont.eot">
+    <link href="/font/fontawesome-webfont.svg">
+    <link href="/font/fontawesome-webfont.ttf">
+    <link href="/font/fontawesome-webfont.woff">
     
     <!-- HTML5 shim -->
     <!--[if lt IE 9]>
@@ -24,24 +28,38 @@
 </head>    
 <body>
 	
-	<div class="masthead clearfix">
-			
-		<div class="container">
-			
-			<div class="logo pull-left">The REAL Parman Family!</div>
-			
+	<div class="masthead clearfix">			
+		<div class="container">			
+			<div class="logo pull-left">The REAL Parman Family!</div>			
 			<div class="socials pull-right">
 				<a href=""><i class="icon-facebook"></i></a> <!-- your facebook link -->
-			</div>
-			
-		</div>
-		
+			</div>			
+		</div>		
 	</div>
+
+      
+  
 	
 	
 	<div class="container">
+
+			<div class="jumbotron">
+			  <strong><h1>For my Hunny</h1></strong>
+			  <strong><p></p></strong>
+			  <br>
+
+			  <p><a class="btn btn-primary btn-lg" id="play">Listen Here!</a></p>
+			  <p><a class="btn btn-primary btn-lg" id="pause">Stop</a></p>
+			</div>
 		
 		<div class="clearfix">
+		
+		<ul class="filter-nav">
+			<li class="active"><a data-id="all" href="">All</a></li>
+			<li><a data-id="portraits" href="">Portraits</a></li>
+			<li><a data-id="landscapes" href="">Landscapes</a></li>
+			<li><a data-id="animals" href="">Animals</a></li>
+		</ul>
 		
 
 		
@@ -52,8 +70,8 @@
 		<ul class="thumbnails" id="thumbnails">
 		
 			<li class="col-md-3 col-sm-3 col-xs-12" data-id="1" data-type="portraits">
-				<a href="/img/us5.jpg" class="thumbnail">
-				  <img src="/img/us5.jpg" alt="" />
+				<a href="/img/us10.jpg" class="thumbnail">
+				  <img src="/img/us10.jpg" alt="" />
 				  <span class="caption"><i class="icon-plus-sign"></i></span>
 				</a>
 			</li>
@@ -122,8 +140,8 @@
 			</li>
 			
 			<li class="col-md-3 col-sm-3 col-xs-12" data-id="11" data-type="landscapes">
-				<a href="/img/us10.jpg" class="thumbnail">
-				  <img src="/img/us10.jpg" alt="" />
+				<a href="/img/us5.jpg" class="thumbnail">
+				  <img src="/img/us5.jpg" alt="" />
 				  <span class="caption"><i class="icon-plus-sign"></i></span>
 				</a>
 			</li>
@@ -148,6 +166,7 @@
     <script type="text/javascript" src="/js/jquery.easing.js"></script>
     <script type="text/javascript" src="/js/jquery.quicksand.js"></script>
     <script src="/js/photographer.js"></script>
+    <script src="/js/audio.js"></script>
 
 </body>
 </html>

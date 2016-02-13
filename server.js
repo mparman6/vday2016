@@ -14,6 +14,10 @@ app.get("/", function(req, res) {
   res.sendFile(process.cwd() + "/views/index.html");
 });
 
+app.get("/surprise", function(req, res) {
+  res.sendFile(process.cwd() + "/views/surprise.html");
+});
+
 
 
 app.listen(PORT, function() {
